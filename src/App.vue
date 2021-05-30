@@ -32,41 +32,7 @@
             />
         </div>
         <RouterView v-else />
-    </div>
-    <footer class="footer bg-darktwo py-4">
-        <p class="ml-2">
-            Made with <svg
-                class="w-6 h-6 inline mb-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-            ><path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-            /></svg> by
-            <a
-                class="link"
-                href="https://github.com/Androz2091"
-                target="_blank"
-            >Androz2091</a> using <a
-                class="hover:underline"
-                href="https://v3.vuejs.org"
-                target="_blank"
-            >Vue.js 3</a> and <a
-                class="hover:underline"
-                href="https://tailwindcss.com"
-                target="_blank"
-            >TailwindCSS</a>. The code is publicly available on <a
-                class="link"
-                href="https://github.com/Androz2091/slash-commands-gui"
-                target="_blank"
-            >GitHub</a>.
-        </p>
-    </footer>
-</template>
+    
 
 <script>
 import { fetchApplication, fetchCommands } from './api';
